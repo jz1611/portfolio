@@ -6,7 +6,7 @@ import './Header.css';
 function Header() {
     return (
         <header>
-            <h1>Jeff Zivkovic</h1>
+            <h1 id='header-name'>Jeff Zivkovic</h1>
             <nav>
                 <ul>
                     <li>
