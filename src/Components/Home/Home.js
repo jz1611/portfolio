@@ -1,29 +1,20 @@
-import React, {useEffect} from 'react';
-import axios from 'axios';
+import React from 'react';
 import './Home.css';
 
+const me = require('./me.jpg');
+
 function Home() {
-
-    useEffect(() => {
-        axios
-            .get('/api/test')
-            .then(res => {
-                console.log(res.data);
-            })
-            .catch(err => console.error(err));
-    }, []);
-
     return (
         <div id='home-container'>
             <div id='bio-container'>
-                <img alt='jeff zivkovic' />
-                <div>
+                <img src={me} alt='jeff zivkovic' />
+                <div id='bio-text-box'>
                     <h2>Hi there.</h2>
-                    <p>My name is Jeff Zivkovic and I am a software developer looking for my first job.</p>
+                    <p>My name is Jeff Zivkovic and I am a software developer looking for my first job. I graduated from Ohio State University with a B.S. in Electrical and Computer Engineering. After a stint working as an operations manager for FedEx Ground, I decided I wouldn't be content until I had a job as a software developer. I completed a web development bootcamp to get a jumpstart, and am now ready for my first opportunity to make an impact at a company that can utilize my skills.</p>
                 </div>
             </div>
             <div>
-                <h2>Hard Skills</h2>
+                <h2>Skills</h2>
                 <div>
                     <h3>Javascript</h3>
                     <h3>HTML5</h3>

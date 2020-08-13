@@ -4,8 +4,7 @@ import './BulkPosts.css';
 function BulkPosts() {
     return (
         <div>
-            BulkPosts
-        
+            Coming soon...
         </div>
     );
 }
