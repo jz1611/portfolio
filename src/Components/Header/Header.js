@@ -13,9 +13,6 @@ function Header() {
                             <NavLink exact to='/' className='header-nav-link'>Home</NavLink>
                         </li>
                         <li className='header-nav-item-box'>
-                            <NavLink exact to='/posts' className='header-nav-link'>Posts</NavLink>
-                        </li>
-                        <li className='header-nav-item-box'>
                             <NavLink exact to='/contact' className='header-nav-link'>Contact</NavLink>
                         </li>
                         <li className='header-nav-item-box header-nav-link'>

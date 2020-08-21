@@ -1,6 +1,6 @@
 #page-header {
     height: 4rem;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@
 
 #header-nav-box {
     height: 100%;
-    width: 22rem;
+    width: 18rem;
     display: flex;
     justify-content: center;
     align-items: center;

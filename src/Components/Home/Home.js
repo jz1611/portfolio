@@ -13,9 +13,9 @@ function Home() {
                     <p>My name is Jeff Zivkovic and I am a software developer looking for my first job. I graduated from Ohio State University with a B.S. in Electrical and Computer Engineering. After a stint working as an operations manager for FedEx Ground, I decided I wouldn't be content until I had a job as a software developer. I completed a web development bootcamp to get a jumpstart, and am now ready for my first opportunity to make an impact at a company that can utilize my skills.</p>
                 </div>
             </div>
-            <div>
-                <h2>Skills</h2>
-                <div>
+            <div id='skills-container'>
+                <h2 className='home-heading'>Skills</h2>
+                <div id='skill-grid'>
                     <h3>Javascript</h3>
                     <h3>HTML5</h3>
                     <h3>CSS3</h3>
@@ -28,7 +28,7 @@ function Home() {
                 </div>
             </div>
             <div>
-                <h2>Projects</h2>
+                <h2 className='home-heading'>Projects</h2>
                 <div>
                     <img alt='man vs. potato' />
                     <h3>Man vs. Potato</h3>
