@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
     background-color: #41729c;
     box-shadow: #00000081 0 3px 5px;
 }
@@ -39,10 +40,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.header-nav-item-box {
-    
 }
 
 .header-nav-link {
