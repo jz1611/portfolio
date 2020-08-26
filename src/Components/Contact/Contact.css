@@ -1,0 +1,30 @@
+#contact-container {
+    min-height: calc(100vh - 8rem);
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-container > p,
+#contact-container > address {
+    color: #ffffff;
+    text-shadow: #000000 1px 1px 3px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#contact-container > address {
+    margin-top: 2rem;
+}
+
+#contact-container a {
+    text-decoration: none;
+    color: #e2c076;
+}
+
+#contact-container a:hover {
+    color: #dbd0b8;
+    text-shadow: #e2c076 0 0 10px;
+}
