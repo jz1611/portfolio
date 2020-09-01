@@ -9,6 +9,7 @@ function Contact() {
             <address>
                 Email: <a href='mailto:jzivkovic1611@gmail.com'>Jeff Zivkovic</a>
             </address>
+            <div id="credits">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
         </div>
     );
 }
