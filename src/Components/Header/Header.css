@@ -54,3 +54,13 @@
     text-shadow: #e2c076 0 0 10px;
     cursor: pointer;
 }
+
+#header-menu {
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    #header-menu {
+        display: block;
+    }
+}

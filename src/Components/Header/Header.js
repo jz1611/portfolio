@@ -22,6 +22,9 @@ function Header() {
                         </li>
                     </ul>
                 </nav>
+                <menu id='header-menu'>
+                    Menu
+                </menu>
                 <h1 id='header-name'>Jeff Zivkovic</h1>
             </div>
         </header>
