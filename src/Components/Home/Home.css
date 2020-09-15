@@ -45,7 +45,7 @@
 
 #skills-container {
     width: 100%;
-    height: 200px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -186,8 +186,34 @@
     }
 }
 
+@media screen and (max-width: 750px) {
+    #skill-grid {
+        height: 8rem;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 33% 33% 33%;
+    }
+}
+
 @media screen and (max-width: 650px) {
-    #header-nav-box {
-        display: none;
+    #home-container {
+        width: 90%;
+    }
+
+    #skill-grid {
+        width: 100%;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 33% 33% 33%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #skill-grid {
+        width: 100%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    #bio-container p {
+        text-align: justify;
     }
 }

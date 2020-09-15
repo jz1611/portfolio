@@ -55,12 +55,42 @@
     cursor: pointer;
 }
 
-#header-menu {
+#hamburger {
     display: none;
 }
 
+#slide-menu {
+    background-color: #41729cd2;
+    position: absolute;
+    margin-top: 9rem;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.closed,
+.open {
+    display: none;
+}
+
+
 @media screen and (max-width: 650px) {
-    #header-menu {
+    #hamburger {
         display: block;
+    }
+    
+    #header-nav-box {
+        display: none;
+    }
+
+    .closed {
+        display: none;
+    }
+    
+    .open {
+        display: flex;
     }
 }
