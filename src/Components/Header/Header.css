@@ -59,23 +59,14 @@
     display: none;
 }
 
-#slide-menu {
-    background-color: #41729cd2;
-    position: absolute;
-    margin-top: 9rem;
-    width: 100vw;
-    height: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .closed,
 .open {
     display: none;
 }
 
+#hamburger-icon {
+    height: 2rem;
+}
 
 @media screen and (max-width: 650px) {
     #hamburger {
@@ -84,6 +75,17 @@
     
     #header-nav-box {
         display: none;
+    }
+    
+    #slide-menu {
+        background-color: #41729cd2;
+        position: absolute;
+        margin-top: 9rem;
+        width: 100vw;
+        height: 5rem;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .closed {

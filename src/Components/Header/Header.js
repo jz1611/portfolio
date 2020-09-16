@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const resume = require('./Zivkovic_Resume_Prof.pdf');
+const hamburger = require('./hamburger.png');
 
 function Header() {
     const [menuStatus, setMenuStatus] = useState('closed');
@@ -16,6 +17,7 @@ function Header() {
         }
     }
 
+    
     return (
         <header id='page-header'>
             <div id='header-inner'>
@@ -33,7 +35,7 @@ function Header() {
                     </ul>
                 </nav>
                 <menu id='hamburger' onClick={toggleMenu}>
-                    Menu
+                    <img src={hamburger} alt='menu button' id='hamburger-icon' />
                 </menu>
                 <h1 id='header-name'>Jeff Zivkovic</h1>
             </div>
